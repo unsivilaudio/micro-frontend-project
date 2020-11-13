@@ -1,6 +1,7 @@
 import React from 'react';
 import MarketingApp from './Components/MarketingApp';
 
+// Add comment
 const App = props => {
     return (
         <div className='Container'>
