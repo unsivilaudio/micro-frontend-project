@@ -10,14 +10,14 @@ const generateClassName = createGenerateClassName({
 
 const App = props => {
     return (
-        <StylesProvider generateClassName={generateClassName}>
-            <BrowserRouter>
+        <BrowserRouter>
+            <StylesProvider generateClassName={generateClassName}>
                 <div className='Container'>
                     <Header />
                     <MarketingApp />
                 </div>
-            </BrowserRouter>
-        </StylesProvider>
+            </StylesProvider>
+        </BrowserRouter>
     );
 };
 
